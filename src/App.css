@@ -1,0 +1,170 @@
+@font-face {
+    font-family: Poppins;
+    src: url('../src/fonts/Poppins-Regular.ttf');
+}
+
+* {
+    font-family: Poppins;
+    font-weight: 90%;
+}
+
+body {
+    font-size: 85%;
+    display: flex;
+    justify-content: center;
+    background: #171717;
+    color: white;
+}
+
+#root{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+div.app {
+    /* width: calc(100% - 40px); */
+    width: 95%;
+    /* width: 96%; */
+    max-width: 700px;
+    margin: auto;
+    box-sizing: border-box;
+    /* margin: 1.2em; */
+    /* padding-inline: em; */
+    border: 3px solid  rgb(130, 86, 4);
+    border-radius: 5px;
+    
+}
+
+h1.header {
+    margin: 0;
+    color: white;
+    background:  rgb(130, 86, 4);
+    padding: .1em;
+    padding-left: .3em;
+}
+
+form {
+    padding-left: .5em;
+}
+
+form input.search {
+    width: 107%;
+    padding: .3em .5em;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid grey;
+    font-size: .9em;
+}
+
+div.nav {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(232, 159, 12);
+    padding-block: .7em;
+
+}
+
+nav {
+    padding-right: .5em;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+
+}
+
+li {
+    margin: 0;
+    padding-inline: .7em;
+}
+
+a.links {
+    /* color:  rgb(130, 86, 4); */
+    color:  white;
+    margin-left: 1em;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: rgb(130, 86, 4);
+    color: whitesmoke;
+    text-align: center;
+    padding-block: .3em;
+    font-weight: bold;
+}
+
+div.post {
+    border-bottom: 2px solid grey;
+    padding-inline: .5em;
+}
+
+div.post h1 {
+    font-size: 1.6em;
+    margin-bottom: 0;
+    margin-top: .2em;
+}
+
+div.post p {
+    font-size: .9em;
+    margin-top: .35em;
+}
+
+small {
+    font-size: .77em;
+    color: gray;
+    margin-bottom: 0;
+}
+
+input.input {
+    width: 95%;
+    margin-bottom: 1em;
+    border: 2px solid rgba(128, 128, 128, 0.773);
+    border-radius: 3px;
+    height: 2em;
+    padding-left: .6em;
+
+}
+
+label {
+    font-weight: bold;
+}
+
+textarea {
+    height: 6em;
+    width: 96%;
+    border: 2px solid rgba(128, 128, 128, 0.773);
+    border-radius: 4px;
+    margin-bottom: .5em;
+}
+
+button {
+    width: 98%;
+    margin-bottom: .7em;
+    padding-block: .5em;
+    font-size: 1em;
+    font-weight: bold;
+    background: lightblue;
+    color:  rgb(130, 86, 4);
+    border: none;
+    border-radius: 4px;
+}
+
+a.postpage {
+    text-decoration: none;
+    color:  rgb(235, 158, 17);
+}
+div.new{
+    padding: .3em .3em .3em .8em;
+}
+h1.title{
+    margin-bottom: .2em;
+}
